@@ -3,5 +3,5 @@
 name: "Check files action"
 description: "Check if readme files are present"
 runs:
-  using: node14
+  using: node16
   main: index.js
