@@ -1,0 +1,7 @@
+# this file contains all metadata for this custom action
+# using inside runs can also be a docker container
+name: "Check files action"
+description: "Check if readme files are present"
+runs:
+  using: node12
+  main: index.js
